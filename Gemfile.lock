@@ -20,4 +20,5 @@ PLATFORMS
 
 DEPENDENCIES
   rspec
+  rspec-expectations
   timecop
