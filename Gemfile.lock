@@ -108,18 +108,18 @@ GIT
       activesupport (>= 3.0.4)
 
 GIT
+  remote: git://github.com/synth/mail_jack.git
+  revision: 1b8588c95a2752c4fa1aee403494b58ab58a8cd2
+  specs:
+    mail_jack (0.2.5)
+
+GIT
   remote: git://github.com/thoughtbot/capybara-webkit.git
   revision: b7d6be163c3fd6f5f6b6e34fc19200ceeaffd700
   specs:
     capybara-webkit (1.1.1)
       capybara (>= 2.0.2, < 2.2.0)
       json
-
-GIT
-  remote: git@github.com:synth/mail_jack.git
-  revision: 1b8588c95a2752c4fa1aee403494b58ab58a8cd2
-  specs:
-    mail_jack (0.2.5)
 
 GIT
   remote: https://github.com/stripe/stripe-ruby

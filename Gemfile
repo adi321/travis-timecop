@@ -43,7 +43,7 @@ gem "omniauth-google-oauth2"
 gem 'gdata_19', require: 'gdata'
 gem 'yam', '~> 2.2.0', require: 'yammer'
 # gem 'mail_jack', path: '/Users/pete/work/mail_jack'
-gem 'mail_jack', git: 'git@github.com:synth/mail_jack.git'
+gem 'mail_jack', github: 'synth/mail_jack'
 gem 'newrelic_rpm'
 gem 'whenever', require: false
 gem 'redis'
