@@ -10,4 +10,15 @@ describe Timecop do
     Timecop.freeze(1.month.from_now)
     expect(Time.now).to eq(Time.parse("2015-04-01"))
   end
+
+  it 'freezes time' do
+    today = Date.today
+    puts today
+    today_plus_1_month = today + 1.month
+    
+    Timecop.freeze(Date.today + 1.month)  do
+      puts Date.today
+      expect(Date.today).to eq(today_plus_1_month)
+    end
+  end
 end
